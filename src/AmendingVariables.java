@@ -1,7 +1,7 @@
 public class AmendingVariables {
     public static void main(String[] args) {
         int robertCurrentIncome = 62000;
-        float yearlyIncrease = 1.1f;
+        double yearlyIncrease = 1.1;
         System.out.println("Robert's starting income:" + robertCurrentIncome);
         int years = 1;
         while (years <= 5) {
